@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Docler: FE Chat App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="chatbox">
+            <ul id="chatbox-messages"></ul>
+            <form id="chatbox-actions">
+                <input type="text" id="username-input" />
+                <input type="text" id="message-input" placeholder="Type here to chat" />
+                <button type="submit" class="bold">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.socket.io/socket.io-2.2.0.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
